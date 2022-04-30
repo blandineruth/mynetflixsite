@@ -1,0 +1,112 @@
+#home{
+    /* margin:0; */
+    background-image: url("mon\ image.PNG" );
+    font-family: sans-serif;
+}
+
+#profil {
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    margin-top: 10px;
+   justify-content:center;
+}
+.profil img{
+    border: solid transparent;
+    width: 350px;
+    justify-content: space-between;
+}
+.profil p{
+transition: all .3s;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s ;
+-o-transition: all .3s;
+}
+.profil:hover img{
+    border: 0px solid black;
+}
+
+
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+#profil {
+    background-color: black;
+}
+
+*{
+
+    box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+   height: 100 px;
+}
+
+
+nav img {
+width: 200px;
+}
+
+ form {
+    background-color:black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   color: white;
+    
+
+}
+
+
+input{
+ padding: 0px 5px;
+margin: 5px 0;
+border: none;
+border-radius: 4px; 
+background-color: white;
+font-size: 16px;
+color:black;
+opacity: .8;
+outline: none;
+
+}
+input[ type=submit]{
+    background-color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+label{
+    color: white;
+    margin-left: 18px;
+
+}
+p{
+    color: white
+}
+  a{
+      color: white;
+  }
+
+
+input[ type=email]:focus, input[ type=password]focus{
+    opacity:1;
+
+}
+
+
+.Content {
+    display: flex;
+    margin: 100px 500px;
+    
+    }
+    #menu{
+        background-color: black;
+        width: 200px;
+    }
